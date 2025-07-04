@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+      .playlist-wrapper {
+        padding: 16px 20px;
+        margin: 8px 0;
+      }
+      .podcast-wrapper {
+        padding: 16px 20px;
+        margin: 8px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="container max-h-[95vh] flex flex-col w-[361px] h-screen bg-[#121212] text-white rounded-lg p-2 m-2"
+    >
+      <div class="upper-container">
+        <div
+          class="title-wrapper flex flex-row justify-between gap-10 px-2 py-4"
+        >
+          <h1>Your library</h1>
+          <div class="upper-button-wrapper">
+            <button>+</button>
+          </div>
+        </div>
+        <div
+          class="w-[347px] h-[283px] overflow-auto [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300 dark:[&::-webkit-scrollbar-track]:bg-neutral-700 dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500"
+        >
+          <div class="playlist-section border bg-[#1f1f1f] m-4 p-4">
+            <div class="playlist">
+              <p>Create your first playlist</p>
+              <p>It's easy,we'll help you</p>
+            </div>
+            <div
+              class="mt-4 playlist-button-wrapper border rounded-2xl bg-white text-black font-bold"
+            >
+              <button class="p-2">Create playlist</button>
+            </div>
+          </div>
+          <div class="podcast-section border bg-[#1f1f1f] m-4 p-4">
+            <div class="playlist">
+              <p>Let find some podcast to follow</p>
+              <p>We'll keep you updated on new episode</p>
+            </div>
+            <div
+              class="mt-4 playlist-button-wrapper border rounded-2xl bg-white text-black font-bold"
+            >
+              <button class="p-2">Browse podcast</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="lower-container w-[431px] h-[216px]">
+        <ul class="flex text-sm space-x-1">
+          <li class="px-4">Legal</li>
+          <li class="px-4">Safety & Privacy Center</li>
+          <li class="">Privacy Policy</li>
+        </ul>
+        <ul class="flex text-sm space-x-1">
+          <li class="px-4">Cookies</li>
+          <li class="px-4">About Ads</li>
+          <li class="">Accessiblites</li>
+        </ul>
+        <div>
+          <a href="" class="text-bold px-4">Cookies</a>
+        </div>
+        <div class="change-language-section mt-32 border rounded-2xl w-32">
+          <button class="p-2">
+            <span>Icon</span>
+            English
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
