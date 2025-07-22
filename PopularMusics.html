@@ -1,0 +1,62 @@
+<!-- const PopularMusics = () => {
+  const musics = [
+    {
+      name: "Từng Ngày Như Mãi Mãi",
+      image: "https://i.scdn.co/image/ab67616d00001e02fe0cbef064f18008462d29ef",
+      artistName: "buitruonglinh",
+    },
+    {
+      name: "Lặng",
+      image: "https://i.scdn.co/image/ab67616d00001e02c353169a2288f403265ee402",
+      artistName: "Shiki",
+    },
+    {
+      name: "THE WXRDIE",
+      image: "https://i.scdn.co/image/ab67616d00001e02f3b9c8061be9fc0bdebad64e",
+      artistName: "Wxrdie",
+    },
+  ];
+  return (
+    <div className="justify-between bg-[#121212] text-white font-sans w-full">
+      <div className="flex justify-between items-center mb-4">
+        <div>
+          <a
+            href=""
+            className="text-2xl font-bold text-gray-300 hover:underline"
+          >
+            Popular album and single
+          </a>
+        </div>
+        <button className="text-sm font-semibold text-gray-300 hover:underline ml-2">
+          Show all
+        </button>
+      </div>
+      <div className="w-full overflow-hidden mt-5">
+        <div className="flex gap-6 w-max overflow-x-auto scrollbar-thin scrollbar-thumb-gray-600 scrollbar-track-transparent pb-2">
+          {musics.map((music, index) => (
+            <div
+              key={index}
+              className="min-w-[200px] h-[280px] flex flex-col items-center text-center"
+            >
+              <div className="w-[200px] h-[200px] rounded-2xl overflow-hidden">
+                <img
+                  src={music.image}
+                  className="w-full h-full object-cover"
+                  alt=""
+                />
+              </div>
+              <div className="mt-3 text-white text-sm px-2">
+                <button className="text-sm font-semibold text-gray-300 hover:underline">
+                  {music.name}
+                </button>
+              </div>
+              <div>{music.artistName}</div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default PopularMusics; -->
